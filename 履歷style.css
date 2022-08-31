@@ -1,0 +1,217 @@
+body {
+    font-size: 14px;
+    line-height: 24px;
+    background: #242325;
+}
+
+.wrap {
+    background: #fff;
+    width: 1000px;
+    height: 1950px;
+    margin: 60px auto;
+    padding: 70px;
+    box-sizing: border-box;
+    box-shadow: 0 0 14px rgba(0, 0, 0, 3);
+}
+
+h2 {
+    font-size: 18px;
+    margin-left: 20px;
+    font-family: serif;
+    color: #55868C;
+}
+
+
+/* <!-- 版頭 --> */
+
+.header {
+    font-size: 13px;
+    overflow: hidden;
+}
+
+.header .pic {
+    width: 540px;
+    height: 360px;
+    float: left;
+    margin-right: 40px;
+    overflow: hidden;
+}
+
+
+/* .header .pic img {
+    width: 600px;
+    height: 340px;
+} */
+
+.header .info {}
+
+.header .info h1 {
+    font-size: 20px;
+    font-family: serif;
+    margin-bottom: 110px;
+    color: #55868C;
+}
+
+.header .info p {
+    font-family: sans-serif;
+    line-height: 24px;
+}
+
+.header .info .social {}
+
+.header .info .social a {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+}
+
+.header .info .social a img {
+    width: 32px;
+    height: 32px;
+}
+
+.header .info .phone {
+    margin-top: 15px;
+}
+
+.header .info .mail::before {
+    content: "mail:";
+    color: #55868C;
+}
+
+
+/* .header .info .mail a:hover::before,
+.header .info .mail a:hover::after {
+    color: #55868C;
+} */
+
+.header .info .mail a {
+    text-decoration: none;
+    color: #242325;
+}
+
+.info .phone {}
+
+.info .phone::before {
+    content: "phone:";
+    color: #55868C;
+}
+
+.info .address::before {
+    content: "address:";
+    color: #55868C;
+}
+
+
+/* 自傳 */
+
+.intro {
+    margin-top: 50px;
+}
+
+.intro .introword {
+    margin-left: 40px;
+    margin-right: 65px;
+    margin-bottom: 10px;
+}
+
+
+/* 經歷 */
+
+.learning {
+    width: 50%;
+    overflow: hidden;
+    margin-top: 30px;
+    float: left;
+}
+
+.learning ul {
+    padding: 0;
+    margin: 30px;
+    margin-left: 50px;
+    /* list-style: none; */
+}
+
+.learning ul li {
+    float: left;
+    margin-bottom: 40px;
+}
+
+.learning .others {
+    color: #7A7D7D;
+}
+
+.learning .others ul li {
+    float: left;
+    margin-bottom: 40px;
+    list-style: none;
+}
+
+
+/* .learning .lookingjob a:hover::before {
+    text-decoration: none;
+    color: #242325;
+}
+
+.learning .lookingjob a:hover::after {
+    text-decoration: none;
+    color: #55868C;
+} */
+
+
+/* <!-- 展覽經歷 --> */
+
+.experience {
+    width: 50%;
+    overflow: hidden;
+    margin-top: 30px;
+    float: left;
+}
+
+.experience ul {
+    /* list-style: none; */
+    padding: 0;
+    margin: 30px;
+    margin-left: 40px;
+}
+
+.experience ul li {
+    /* width: 33%; */
+    float: left;
+    margin-bottom: 40px;
+}
+
+
+/* <!-- Software --> */
+
+.software {
+    /* width: 50%; */
+    height: 450px;
+    margin-top: 50px;
+}
+
+.software .skills {
+    list-style-type: symbols();
+    margin: 30px;
+}
+
+.software .skills li {
+    width: 33%;
+    float: left;
+    margin-bottom: 30px;
+}
+
+
+/* <!-- work --> */
+
+.work {}
+
+.work .pic img {
+    width: 280px;
+    height: 200px;
+    float: left;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
